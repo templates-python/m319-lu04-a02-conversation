@@ -13,7 +13,7 @@ def test_main(monkeypatch, capsys):
     captured = capsys.readouterr()
 
     # Check the prompts
-    assert prompts == ['Greetings! How are you doing?', 'Oh, how interesting. Tell me more!']
+    assert prompts == ['Greetings! How are you doing?\n', 'Oh, how interesting. Tell me more!\n']
 
     # Check the printed output
     assert captured.out == 'Thanks for sharing!\n'
