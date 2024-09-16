@@ -1,8 +1,8 @@
 [
   {
-    "name": "Pytest",
-    "function": "Pytest",
+    "name": "test_main",
+    "function": "test_main",
     "timeout": 10,
-    "points": 2
+    "points": 5
   }
 ]
